@@ -56,6 +56,10 @@ end
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
+  gem 'listen', '~> 3.8'
+  gem 'spring', '~> 4.1', '>= 4.1.1'
+  gem 'spring-watcher-listen', '~> 2.1'
+  gem 'guard', '~> 2.18'
 
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
