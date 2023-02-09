@@ -60,7 +60,9 @@ group :development do
   gem 'spring', '~> 4.1', '>= 4.1.1'
   gem 'spring-watcher-listen', '~> 2.1'
   gem 'guard', '~> 2.18'
-
+  gem 'simple_form', '~> 5.2'
+  gem 'guard-livereload', '~> 2.5', require: false
+  gem 'bulma', '~> 0.1.0'
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
 
